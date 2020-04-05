@@ -1,9 +1,12 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "Cory Kelley",
+    name: "Cory Kelley",
+    nameTag: "johncoryk",
+    twitterUrl: "http://twitter.com/johncoryk",
+    githubUrl: "https://github.com/johncoryk",
+    codepenUrl: "https://codepen.io/johncoryk",
+    emailAddress: "coryk0789@gmail.com",
+  },
+  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-sass"],
 }

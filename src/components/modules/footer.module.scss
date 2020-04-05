@@ -1,0 +1,25 @@
+footer {
+  margin-top: 4.5rem;
+}
+
+.footer-content {
+  font-size: 0.8rem;
+}
+
+.cory-link {
+  text-decoration: none;
+  color: #468499;
+  transition: all ease 200ms;
+}
+
+.gatsby-link {
+  text-decoration: none;
+  color: rebeccapurple;
+  transition: all ease 200ms;
+}
+
+a {
+  &:hover {
+    color: #333;
+  }
+}

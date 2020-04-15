@@ -42,6 +42,7 @@ const Header = () => {
           </ul>
         </nav>
       </div>
+      <p className={headerStyles.feDev}>Front End Dev</p>
       <nav className={headerStyles.icons}>
         <a href={`${data.site.siteMetadata.twitterUrl}`}>
           <FaTwitter className={headerStyles.icon} />
@@ -56,7 +57,6 @@ const Header = () => {
           <MdEmail className={headerStyles.icon} />
         </a>
       </nav>
-      <div className={headerStyles.rule}></div>
     </header>
   )
 }

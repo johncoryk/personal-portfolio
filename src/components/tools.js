@@ -11,10 +11,8 @@ import {
 
 const Tools = () => {
   return (
-    <section className={toolStyles.toolsContainer}>
-      <div className={toolStyles.toolTitleBg}>
-        <h2 className={toolStyles.toolHeader}>Tools I Use:</h2>
-      </div>
+    <section>
+      <p className={toolStyles.toolsHeader}>tools i use</p>
       <div className={toolStyles.iconsDiv}>
         <DiHtml5 className={toolStyles.toolIcons} />
         <DiJavascript1 className={toolStyles.toolIcons} />

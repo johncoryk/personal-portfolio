@@ -26,7 +26,7 @@ header h1 {
   transition: all ease 200ms;
 
   &:hover {
-    color: #fff;
+    color: #468499;
   }
 }
 
@@ -45,7 +45,7 @@ header h1 {
   font-size: 1.15rem;
 
   &:hover {
-    color: #fff;
+    color: #468499;
   }
 }
 
@@ -72,8 +72,15 @@ header h1 {
   }
 }
 
-.rule {
-  background-color: #eee;
-  border-bottom: 1.5px solid;
-  margin-top: 0.6rem;
+.headerSecondRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feDev {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
 }

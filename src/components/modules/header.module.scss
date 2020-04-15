@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
 header {
   margin-bottom: 4rem;
 }
@@ -7,15 +9,15 @@ header {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 1.5rem;
-  align-items: flex-start;
+  align-items: center;
 }
 
 header h1 {
-  font-weight: bolder;
+  font-family: "DM Serif Display", serif;
   text-transform: uppercase;
-  font-size: 1.7rem;
-  letter-spacing: -1.9px;
+  font-size: 2.7rem;
   margin-bottom: 0.5rem;
+  line-height: 2.5rem;
 }
 
 .title-link {
@@ -33,8 +35,6 @@ header h1 {
   display: flex;
   flex-direction: row;
   padding-right: 0.5rem;
-  padding-top: 0.45rem;
-  margin-bottom: 0;
 }
 
 .nav-links {
@@ -42,6 +42,7 @@ header h1 {
   color: #eee;
   margin-left: 1.1rem;
   transition: all ease 200ms;
+  font-size: 1.15rem;
 
   &:hover {
     color: #fff;
@@ -69,4 +70,10 @@ header h1 {
     transform: scale(1.1);
     fill: #468499;
   }
+}
+
+.rule {
+  background-color: #eee;
+  border-bottom: 1.5px solid;
+  margin-top: 0.6rem;
 }

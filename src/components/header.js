@@ -24,11 +24,6 @@ const Header = () => {
     <header>
       <div className={headerStyles.headerFlex}>
         <h1>
-          {/* <Link to="/" className={headerStyles.titleLink}>
-            {window.location.href !== "localhost:8000/about"
-              ? "Home"
-              : data.site.siteMetadata.title}
-          </Link> */}
           <Link to="/" className={headerStyles.titleLink}>
             {data.site.siteMetadata.title}
           </Link>
@@ -61,6 +56,7 @@ const Header = () => {
           <MdEmail className={headerStyles.icon} />
         </a>
       </nav>
+      <div className={headerStyles.rule}></div>
     </header>
   )
 }

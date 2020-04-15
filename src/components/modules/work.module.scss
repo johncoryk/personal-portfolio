@@ -3,6 +3,12 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: right;
-  padding: 1rem 3rem;
+  padding: 1rem;
   border: 1px solid #eee;
+}
+
+@media (max-width: 420px) {
+  .workHeader {
+    font-size: 1rem;
+  }
 }

@@ -7,7 +7,7 @@ import {
   DiReact,
   DiSass,
   DiNodejsSmall,
-} from "react-icons/Di"
+} from "react-icons/di"
 
 const Tools = () => {
   return (

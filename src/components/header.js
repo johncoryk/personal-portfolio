@@ -44,24 +44,6 @@ const Header = () => {
                 About
               </Link>
             </li>
-            <li>
-              <Link
-                to="/blog"
-                className={headerStyles.navLinks}
-                activeClassName={headerStyles.active}
-              >
-                Thoughts
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                className={headerStyles.navLinks}
-                activeClassName={headerStyles.active}
-              >
-                Contact
-              </Link>
-            </li>
           </ul>
         </nav>
       </div>

@@ -1,5 +1,6 @@
 footer {
   margin-top: 4.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer-content {
@@ -14,12 +15,12 @@ footer {
 
 .gatsby-link {
   text-decoration: none;
-  color: rebeccapurple;
+  color: rgb(144, 89, 199);
   transition: all ease 200ms;
 }
 
 a {
   &:hover {
-    color: #333;
+    color: #eee;
   }
 }

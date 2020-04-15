@@ -1,3 +1,5 @@
+const path = require("path")
+
 module.exports = {
   siteMetadata: {
     title: "Cory Kelley",
@@ -8,5 +10,17 @@ module.exports = {
     codepenUrl: "https://codepen.io/johncoryk",
     emailAddress: "coryk0789@gmail.com",
   },
-  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-sass"],
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass",
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "images",
+        path: "images",
+      },
+    },
+  ],
 }

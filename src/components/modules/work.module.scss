@@ -1,0 +1,56 @@
+.workSection {
+  margin-top: -2rem;
+}
+
+.rule {
+  background-color: #eee;
+  border-bottom: 2px solid;
+  margin-top: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.workHeader {
+  margin-bottom: 1rem;
+}
+
+.imageDiv {
+  margin-top: 2rem;
+}
+
+.image {
+  -webkit-box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.67);
+  box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.67);
+}
+
+.workDesc {
+  margin-top: 1.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.workTitle {
+  font-size: 3rem;
+}
+
+.workLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 4.5px;
+
+  a {
+    text-decoration: none;
+    color: #468499;
+    transition: all ease 200ms;
+
+    &:hover {
+      color: #eee;
+    }
+  }
+
+  h3 {
+    margin-left: 1.2rem;
+  }
+}

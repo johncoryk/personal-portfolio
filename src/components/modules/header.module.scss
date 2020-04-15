@@ -13,18 +13,18 @@ header {
 header h1 {
   font-weight: bolder;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.7rem;
   letter-spacing: -1.9px;
   margin-bottom: 0.5rem;
 }
 
 .title-link {
   text-decoration: none;
-  color: #333;
+  color: #eee;
   transition: all ease 200ms;
 
   &:hover {
-    color: #666;
+    color: #fff;
   }
 }
 
@@ -33,23 +33,23 @@ header h1 {
   display: flex;
   flex-direction: row;
   padding-right: 0.5rem;
-  padding-top: 0.85rem;
+  padding-top: 0.45rem;
   margin-bottom: 0;
 }
 
 .nav-links {
   text-decoration: none;
-  color: #666;
+  color: #eee;
   margin-left: 1.1rem;
   transition: all ease 200ms;
 
   &:hover {
-    color: #333;
+    color: #fff;
   }
 }
 
 .active {
-  color: #333;
+  color: #468499;
 }
 
 .icons {
@@ -61,7 +61,7 @@ header h1 {
 }
 
 .icon {
-  fill: #333;
+  fill: #eee;
   font-size: 25px;
   transition: all ease 200ms;
 

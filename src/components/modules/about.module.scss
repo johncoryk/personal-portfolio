@@ -1,0 +1,17 @@
+.aboutTitle {
+  margin-bottom: 1.2rem;
+}
+
+.aboutBody {
+  line-height: 2rem;
+}
+
+.aboutBody > a {
+  text-decoration: none;
+  color: #468499;
+  transition: all ease 200ms;
+
+  &:hover {
+    color: #eee;
+  }
+}

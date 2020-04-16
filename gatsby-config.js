@@ -22,5 +22,16 @@ module.exports = {
         path: "images",
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#333`,
+        display: `standalone`,
+        icon: `src/images/ck_fav.png`,
+      },
+    },
   ],
 }

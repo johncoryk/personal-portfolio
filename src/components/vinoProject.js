@@ -19,7 +19,12 @@ const VinoProject = () => {
 
   return (
     <div className={projectStyles.imageDiv}>
-      <Img className={projectStyles.image} fluid={vinoPic.image.sharp.fluid} />
+      <a href="https://hello-vino.netlify.com/">
+        <Img
+          className={projectStyles.image}
+          fluid={vinoPic.image.sharp.fluid}
+        />
+      </a>
       <div className={projectStyles.projectDesc}>
         <h2 className={projectStyles.projectTitle}>Hello Vino!</h2>
         <div className={projectStyles.projectLinks}>

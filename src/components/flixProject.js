@@ -19,7 +19,12 @@ const FlixProject = () => {
 
   return (
     <div className={projectStyles.imageDiv}>
-      <Img className={projectStyles.image} fluid={vinoPic.image.sharp.fluid} />
+      <a href="https://flix-movie-app.netlify.com/?_ga=2.87307293.465753357.1586879206-2062776928.1584703844">
+        <Img
+          className={projectStyles.image}
+          fluid={vinoPic.image.sharp.fluid}
+        />
+      </a>
       <div className={projectStyles.projectDesc}>
         <h2 className={projectStyles.projectTitle}>Flix</h2>
         <div className={projectStyles.projectLinks}>

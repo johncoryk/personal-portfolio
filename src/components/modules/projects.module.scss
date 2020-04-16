@@ -5,6 +5,11 @@
 .image {
   -webkit-box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.67);
   box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.67);
+  transition: all ease 200ms;
+
+  &:hover {
+    transform: scale(1.007);
+  }
 }
 
 .projectDesc {

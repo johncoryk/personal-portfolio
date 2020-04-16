@@ -25,10 +25,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Cory Kelley`,
+        short_name: `corykelley.dev`,
         start_url: `/`,
-        background_color: `#333`,
+        background_color: `#555`,
         display: `standalone`,
         icon: `src/images/ck_fav.png`,
       },

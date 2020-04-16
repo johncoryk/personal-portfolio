@@ -1,10 +1,11 @@
 footer {
-  margin-top: 4.5rem;
+  margin-top: 5rem;
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .footer-content {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .cory-link {
@@ -22,5 +23,15 @@ footer {
 a {
   &:hover {
     color: #eee;
+  }
+}
+
+@media (max-width: 415px) {
+  footer {
+    margin-top: 3.8rem;
+  }
+
+  .footer-content {
+    font-size: 0.7rem;
   }
 }

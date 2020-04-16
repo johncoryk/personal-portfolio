@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
 header {
   margin-bottom: 4rem;
@@ -13,10 +13,9 @@ header {
 }
 
 header h1 {
-  font-family: "DM Serif Display", serif;
-  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
   font-size: 2.7rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
   line-height: 2.5rem;
 }
 
@@ -54,7 +53,7 @@ header h1 {
 }
 
 .icons {
-  width: 165px;
+  width: 170px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

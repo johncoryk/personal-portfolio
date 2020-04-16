@@ -36,7 +36,7 @@ const Header = () => {
                 className={headerStyles.navLinks}
                 activeClassName={headerStyles.active}
               >
-                About
+                ABOUT
               </Link>
             </li>
           </ul>

@@ -1,9 +1,21 @@
-.aboutTitle {
-  margin-bottom: 1.2rem;
+.aboutHeader {
+  margin: -2.8rem auto 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: right;
+  padding: 1rem;
+  border: 1px solid #eee;
+}
+
+.aboutFlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .aboutBody {
   line-height: 2rem;
+  transition: all ease 200ms;
 }
 
 .aboutBody > a {
@@ -13,5 +25,50 @@
 
   &:hover {
     color: #eee;
+  }
+}
+
+.aboutImgDiv {
+  padding-top: 5px;
+  // width: 500px;
+}
+
+.aboutImage {
+  width: 350px;
+  margin-left: 2.5rem;
+  -webkit-box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.67);
+  box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.67);
+  transition: all ease 200ms;
+}
+
+@media (max-width: 900px) {
+  .aboutImage {
+    width: 280px;
+  }
+
+  .aboutBody {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .aboutFlexContainer {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .aboutImage {
+    width: 280px;
+    margin: 0 auto 1.3rem;
+  }
+
+  .aboutBody {
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .aboutHeader {
+    font-size: 1rem;
   }
 }

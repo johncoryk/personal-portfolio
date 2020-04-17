@@ -26,7 +26,7 @@ const VinoProject = () => {
         />
       </a>
       <div className={projectStyles.projectDesc}>
-        <h2 className={projectStyles.projectTitle}>Hello Vino!</h2>
+        <h2 className={projectStyles.projectTitle}>Hello Vino</h2>
         <div className={projectStyles.projectLinks}>
           <a href="https://github.com/johncoryk/hello-vino">
             <p>/ code</p>

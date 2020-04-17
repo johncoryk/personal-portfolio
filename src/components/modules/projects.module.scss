@@ -1,0 +1,54 @@
+.imageDiv {
+  margin-top: 1rem;
+}
+
+.image {
+  -webkit-box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.67);
+  box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.67);
+  transition: all ease 200ms;
+
+  &:hover {
+    transform: scale(1.007);
+  }
+}
+
+.projectDesc {
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.projectLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 4.5px;
+
+  a {
+    text-decoration: none;
+    color: #468499;
+    transition: all ease 200ms;
+
+    &:hover {
+      color: #eee;
+      transform: scale(1.1);
+    }
+  }
+
+  p {
+    margin-left: 1.2rem;
+  }
+}
+
+@media (max-width: 412px) {
+  .projectTitle {
+    font-size: 1.5rem;
+  }
+
+  .projectLinks > a > p {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+header {
+  margin-bottom: 4rem;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.7rem;
+  margin-bottom: 0.9rem;
+  line-height: 2.5rem;
+}
+
+.title-link {
+  text-decoration: none;
+  color: #eee;
+  transition: all ease 200ms;
+
+  &:hover {
+    color: #468499;
+  }
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-right: 0.5rem;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #eee;
+  margin-left: 1.1rem;
+  transition: all ease 200ms;
+  font-size: 1.15rem;
+
+  &:hover {
+    color: #468499;
+  }
+}
+
+.active {
+  color: #468499;
+}
+
+.icons {
+  width: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0.2rem;
+}
+
+.icon {
+  fill: #eee;
+  font-size: 25px;
+  transition: all ease 200ms;
+
+  &:hover {
+    transform: scale(1.1);
+    fill: #468499;
+  }
+}
+
+.headerSecondRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feDev {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
